@@ -1,0 +1,147 @@
+header {
+	display: flex;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: black 1px solid;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	background-color: white;
+}
+
+footer{
+	display: flex;
+	align-content: center;
+	background-color: MediumAquamarine;
+	margin: auto;
+	font-family: Verdana;
+	font-size: 12px;
+	position: relative;
+	top: 80px;
+	padding: 100px;
+	flex-direction: column;
+	align-items: center;
+}
+
+.left{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo{
+	color: MediumAquamarine;
+	padding: 7px;
+}
+
+.header_nav{
+	display: flex;
+	padding: 22px;
+	position: absolute;
+	right: 0;
+	justify-content: space-between;
+}
+
+.main-content{
+	display: flex;
+	position: relative;
+	top: 80px;
+	justify-content: space-around;
+	z-index: 1;
+}
+
+.column_large{
+	display: inline-flex;
+	flex-direction: column;
+	width: 630px;
+	align-content: center;
+}
+
+.image{
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	width: 315px;
+}
+
+.story{
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
+	width: 310px;
+}
+
+.top{
+flex-wrap: wrap;
+display: flex;
+}
+
+.bottom{
+flex-wrap: wrap;
+display: inline-flex;
+}
+
+.footer_title{
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+.footer_nav{
+	justify-content: space-around;
+}
+
+.top_line{
+	display: flex;
+}
+
+#main-story{
+	width:630px;
+	height: 300px;
+	font-size: 40px;
+	background-image: url("./images/story-main.png");
+}
+
+.column_medium{
+	width: 300px;
+}
+
+.column_small{
+	width: 240px;
+}
+
+.small_header{
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+}
+
+.bites{
+flex-direction: column;
+display: flex;
+background-color: WhiteSmoke;
+font-family: Verdana;
+font-size: 12px;
+color: DimGray;
+border-bottom: black 1px solid;
+}
+
+#fall{
+	background-image: url("./images/fall.png");
+	height: 300px;
+	width: 315px;
+}
+
+#cameraman{
+	background-image: url("./images/cameraman.png");
+	height:300px;
+	width: 315px;
+}
+
+#cat{
+	background-image: url("./images/cat.png");
+	height: 300px;
+}
